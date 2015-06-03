@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<querySet>
+    <nativeQuery>
+        select t.name as table_name, c.name as column_name
+        from sys.tables t, sys.columns c
+        where t.object_id = c.object_id
+        and c.name not in ('id', 'version')
+    </nativeQuery>
+</querySet>
