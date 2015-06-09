@@ -7,11 +7,11 @@
 
     <parent>
         <groupId>com.dzhao.example</groupId>
-        <artifactId>com.dzhao.example</artifactId>
+        <artifactId>java-example</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>com.dzhao.example.dml</artifactId>
+    <artifactId>DML-example</artifactId>
     <packaging>jar</packaging>
     <name>DML generator example</name>
 
